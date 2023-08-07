@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>miniplayer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body >
-   
+
+<body>
     <video id="video" controls height="360" width="640" hidden> </video>
-    
-    <button onclick="selectedMediaStream()">START</button>
+    <div classname="container">
+        <button id="button" onclick="selectedMediaStream()">START</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
